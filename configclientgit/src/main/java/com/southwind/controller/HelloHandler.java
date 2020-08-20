@@ -11,9 +11,10 @@ public class HelloHandler {
 
     @Value("${server.port}")
     private String port;
-
+    @Value("${mytest.name}")
+    private String applicationname;
     @GetMapping("/index")
     public String index(){
-        return this.port;
+        return this.port+"-"+this.applicationname;
     }
 }
