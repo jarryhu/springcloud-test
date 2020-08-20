@@ -9,8 +9,8 @@ spring:
         git:
           uri: https://github.com/jarryhu/springcloud-test.git
           searchPaths: config
-          username: root
-          password: root
+          username: jarryhu
+          password: Jerryhu780910
       label: master
 eureka:
   client:
