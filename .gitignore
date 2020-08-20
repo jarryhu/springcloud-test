@@ -1,0 +1,10 @@
+# Project exclude paths
+/consumerClient/target/
+/eurakaserver/target/
+/eurekaclient/target/
+/Feign/target/
+/nativeconfigclient/target/
+/nativespringcloudserver/target/
+/Resttemplate/target/
+/Ribbon/target/
+/zuul/target/
